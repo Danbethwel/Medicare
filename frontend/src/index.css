@@ -8,13 +8,19 @@
   }
 }
 
+@layer utilities {
+  .leading-30 {
+    line-height: 1.3rem; /* Adjust the value as per your requirement */
+  }
+}
+
 @layer components {
   .container {
     @apply max-w-full w-[1440px] px-5 mx-auto;
   }
 
   .btn {
-    @apply bg-primaryColor py-[15 px] px-[35px] rounded-[50px] text-white font-[600] mt-[38px];
+    @apply bg-primaryColor py-[15px] px-[35px] rounded-[50px] text-white font-[600] mt-[38px];
   }
 
   .heading {
@@ -27,6 +33,9 @@
 
   .header{
     @apply bg-[url('./assets/images/mask.png')] bg-no-repeat bg-center bg-cover w-full h-[100px] leading-[100px];
+  }
+  .hero__section{
+    @apply bg-[url('./assets/images/hero-bg.png')] bg-no-repeat bg-center bg-cover;
   }
 }
 

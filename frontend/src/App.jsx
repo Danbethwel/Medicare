@@ -1,12 +1,11 @@
 import "./app.css";
+import Layout from "./layout/Layout";
+import Header from "./components/Header/Header";
 
-function App() {
-  
-  return (
-    <>
-      <h1 className="text-[20px] text-blue-600">Hello react + vite app</h1>
-    </>
-  )
+
+const App = () => {
+  return <Layout />
 }
 
 export default App
+

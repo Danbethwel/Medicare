@@ -28,7 +28,7 @@
   }
 
   .text__para {
-    @apply text-[18px] leading-30 px-[30px] font-[400] text-textColor mt-[18px];
+    @apply text-[18px] leading-30 px-[30px] font-[400] text-textColor mt-[18px] m-0 p-6;
   }
 
   .header{
